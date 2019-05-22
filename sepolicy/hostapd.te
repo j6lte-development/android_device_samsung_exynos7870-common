@@ -1,2 +1,1 @@
-type hostapd, domain;
 allow hostapd rfkill_device:chr_file { open read };
