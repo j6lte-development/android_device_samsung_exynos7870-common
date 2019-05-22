@@ -20,6 +20,7 @@ LOCAL_PATH := device/samsung/exynos7870-common
 TARGET_SPECIFIC_HEADER_PATH := device/samsung/exynos7870-common/include
 
 # SELinux
+SELINUX_IGNORE_NEVERALLOWS := true
 BOARD_SEPOLICY_DIRS += device/samsung/exynos7870-common/sepolicy
 
 # Properties
